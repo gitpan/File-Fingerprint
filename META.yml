@@ -1,0 +1,18 @@
+--- #YAML:1.0
+name:                File-Fingerprint
+version:             0.10_01
+abstract:            Collect meta data about a file
+license:             perl
+author:              
+    - brian d foy <bdfoy@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+    Digest::CRC:                   0
+    File::MMagic:                  0
+    MD5:                           0
+    Test::More:                    0
+    Test::Output:                  0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
