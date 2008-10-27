@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                File-Fingerprint
-version:             0.10_01
+version:             0.10_02
 abstract:            Collect meta data about a file
 license:             perl
 author:              
@@ -12,7 +12,7 @@ requires:
     File::MMagic:                  0
     MD5:                           0
     Test::More:                    0
-    Test::Output:                  0
+    Test::Output:                  0.12
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3

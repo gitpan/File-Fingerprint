@@ -1,9 +1,9 @@
 # $Id: Makefile.PL,v 1.4 2004/07/04 17:04:17 comdog Exp $
 use ExtUtils::MakeMaker;
 
-require 5.006;
+require 5.008;
 
-eval "use Test::Manifest 1.21";
+eval "use Test::Manifest 1.22";
 
 WriteMakefile(
 	'NAME'	       => 'File::Fingerprint',
@@ -14,7 +14,7 @@ WriteMakefile(
 	
 	'PREREQ_PM'    => { 
 		'Test::More'   => '0',
-		'Test::Output' => '0',
+		'Test::Output' => '0.12',
 		File::MMagic   => '0',
 #		File::MimeInfo => '0',
 		Digest::CRC    => '0',

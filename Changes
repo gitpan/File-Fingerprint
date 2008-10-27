@@ -2,3 +2,7 @@
 	* Initial release of a file to collect certain file meta-data
 	so it can check if two files are the same
 
+0.10_02 - Mon Oct 27 13:06:18 2008
+	* Require the latest Test::Output, and require 5.8. This 
+	should still work on 5.6, but I'm not supporting it.
+
